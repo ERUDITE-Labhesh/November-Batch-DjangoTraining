@@ -25,7 +25,7 @@ U --> Update --> PUT()
 D --> Delete --> DELETE()
 '''
 
-# function based views 
+# function based views for CRUD operations
 @csrf_exempt
 def AllUserData(request):
     try:
@@ -86,9 +86,5 @@ def SingleUserData(request, pk):
         
 
         
-        
-
-
-
-
+    
 

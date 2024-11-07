@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'LoginSystem',
 
     "Forms_app",
+    "session_app",
 ]
 
 MIDDLEWARE = [

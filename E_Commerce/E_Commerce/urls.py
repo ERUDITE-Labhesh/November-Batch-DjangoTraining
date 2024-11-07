@@ -20,5 +20,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('login-system/', include('LoginSystem.urls')),
     path('forms-app/',include('Forms_app.urls')),
-    path('session-app/',include('session_app.urls'))
+    path('session-app/',include('session_app.urls')),
+    path('jwt-app/',include('JWT_app.urls')),
 ]

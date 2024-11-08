@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     "Forms_app",
     "session_app",
     "JWT_app",
+    "Signal_app",
 ]
 
 MIDDLEWARE = [

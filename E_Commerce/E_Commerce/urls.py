@@ -22,4 +22,5 @@ urlpatterns = [
     path('forms-app/',include('Forms_app.urls')),
     path('session-app/',include('session_app.urls')),
     path('jwt-app/',include('JWT_app.urls')),
+    path("signal/",include('Signal_app.urls')),
 ]

@@ -44,6 +44,9 @@ INSTALLED_APPS = [
     "session_app",
     "JWT_app",
     "Signal_app",
+
+
+    "channels",
 ]
 
 MIDDLEWARE = [
@@ -74,7 +77,9 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'E_Commerce.wsgi.application'
+# WSGI_APPLICATION = 'E_Commerce.wsgi.application'
+
+ASGI_APPLICATION = "E_Commerce.asgi.application"
 
 
 # Database
